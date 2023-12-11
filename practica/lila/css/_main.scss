@@ -1,0 +1,132 @@
+main {
+    padding-top: 70px;
+    .publicar {
+        background: var(--fondo-contenido);
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 10px;
+        .formulario {
+            display: flex;
+            justify-self: start;
+            input {
+                width: 100%;
+                border: none;
+                background: var(--input);
+                height: 40px;
+                border-radius: 100px;
+                padding: 0 20px;
+                color: var(--texto);
+            }
+        }
+
+        .botones {
+            a {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                padding: 10px;
+                border-radius: 3px;
+                &:hover {
+                    background: var(--input-hover);
+                    color: var(--texto);
+                }
+                svg {
+                    margin-right: 7px;
+                }
+            }
+        }
+    }
+
+    .foto {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+        border-radius: 100px;
+        margin-right: 10px;
+        img {
+            width: 100%;
+        }
+    }
+
+    .publicacion {
+        background: var(--fondo-contenido);
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 10px;
+        .header {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            .datos {
+                display: flex;
+                flex-direction: column;
+                .nombre {
+                    color: var(--blanco);
+                }
+                .hora {
+                    color: var(--texto);
+                    font-size: 14px;
+                    &:hover {
+                        color: var(--texto);
+                    }
+                }
+                a {
+                    &:hover {color: var(--texto);
+                    text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .body {
+            p {
+                margin-bottom: 10px;
+                color: var(--blanco);
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .comentarios {
+            padding: 10px;
+            .me-gusta {
+                color: var(--texto);
+                svg {
+                    margin-right: 10px;
+                    color: #e75151;
+                }
+            }
+            a {
+                color: var(--texto);
+                &:hover {
+                    text-decoration: underline;
+                    color: var(--texto);
+                }
+            }
+        }
+
+        .botones {
+            button {
+                width: 100%;
+                border: none;
+                background:none;
+                color: var(--texto);
+                padding: 10px;
+                border-radius: 3px;
+                &:hover {
+                    background:#3a3b3c;
+                }
+                svg {
+                    margin-right: 5px;
+                }
+            }
+        }
+           
+    }
+}

@@ -102,4 +102,190 @@ header .botones .perfil img {
   margin-right: 5px;
 }
 
+aside {
+  height: 100vh;
+  overflow: auto;
+  padding-top: 60px;
+}
+aside .enlaces-rapidos nav a {
+  display: flex;
+  align-items: center;
+  color: var(--blanco);
+  padding: 10px 10px;
+  border-radius: 3px;
+}
+aside .enlaces-rapidos nav a:hover {
+  background: var(--input-hover);
+}
+aside .enlaces-rapidos .perfil img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+aside .enlaces-rapidos .icono {
+  margin-right: 20px;
+}
+aside .enlaces-rapidos .icono svg {
+  height: 20px;
+  width: 20px;
+}
+aside footer {
+  margin: 40px 0;
+}
+aside footer nav a {
+  font-size: 14px;
+  margin-right: 7px;
+  color: var(--gris-claro);
+}
+aside footer nav a:hover {
+  text-decoration: underline;
+  color: var(--gris-claro);
+}
+
+.contactos .Publicidad {
+  display: block;
+  max-height: 100px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.contactos .Publicidad img {
+  width: 100%;
+}
+.contactos nav a {
+  display: flex;
+  align-items: center;
+  color: var(--blanco);
+  padding: 10px;
+  border-radius: 5px;
+}
+.contactos nav a:hover {
+  background: var(--input-hover);
+}
+.contactos nav a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+main {
+  padding-top: 70px;
+}
+main .publicar {
+  background: var(--fondo-contenido);
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+main .publicar .formulario {
+  display: flex;
+  justify-self: start;
+}
+main .publicar .formulario input {
+  width: 100%;
+  border: none;
+  background: var(--input);
+  height: 40px;
+  border-radius: 100px;
+  padding: 0 20px;
+  color: var(--texto);
+}
+main .publicar .botones a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+}
+main .publicar .botones a:hover {
+  background: var(--input-hover);
+  color: var(--texto);
+}
+main .publicar .botones a svg {
+  margin-right: 7px;
+}
+main .foto {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+main .foto img {
+  width: 100%;
+}
+main .publicacion {
+  background: var(--fondo-contenido);
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+main .publicacion .header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+main .publicacion .header .datos {
+  display: flex;
+  flex-direction: column;
+}
+main .publicacion .header .datos .nombre {
+  color: var(--blanco);
+}
+main .publicacion .header .datos .hora {
+  color: var(--texto);
+  font-size: 14px;
+}
+main .publicacion .header .datos .hora:hover {
+  color: var(--texto);
+}
+main .publicacion .header .datos a:hover {
+  color: var(--texto);
+  text-decoration: underline;
+}
+main .publicacion .body p {
+  margin-bottom: 10px;
+  color: var(--blanco);
+}
+main .publicacion .body img {
+  width: 100%;
+}
+main .publicacion .comentarios {
+  padding: 10px;
+}
+main .publicacion .comentarios .me-gusta {
+  color: var(--texto);
+}
+main .publicacion .comentarios .me-gusta svg {
+  margin-right: 10px;
+  color: #e75151;
+}
+main .publicacion .comentarios a {
+  color: var(--texto);
+}
+main .publicacion .comentarios a:hover {
+  text-decoration: underline;
+  color: var(--texto);
+}
+main .publicacion .botones button {
+  width: 100%;
+  border: none;
+  background: none;
+  color: var(--texto);
+  padding: 10px;
+  border-radius: 3px;
+}
+main .publicacion .botones button:hover {
+  background: #3a3b3c;
+}
+main .publicacion .botones button svg {
+  margin-right: 5px;
+}
+
 /*# sourceMappingURL=estilos.css.map */

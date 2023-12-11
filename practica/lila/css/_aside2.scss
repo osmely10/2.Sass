@@ -1,0 +1,31 @@
+.contactos {
+    .Publicidad {
+        display: block;
+        max-height: 100px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        img {
+            width: 100%;
+        }
+    }
+
+    nav {
+        a {
+            display: flex;
+            align-items: center;
+            color: var(--blanco);
+            padding: 10px;
+            border-radius: 5px;
+            &:hover {
+                background: var(--input-hover);
+            }
+            img {
+                width: 30px;
+                height: 30px;
+                border-radius: 100px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
