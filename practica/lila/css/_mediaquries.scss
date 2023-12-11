@@ -1,0 +1,32 @@
+/* --- MEDIAQUERIES --- */
+
+/* DISPOSITIVO MD */
+@media screen and (max-width: 768px) {
+    .enlaces-rapidos, .contactos {
+        display: none;
+    }
+}
+/* DISPOSITIVOS LG */
+
+@media screen and (max-width: 992px) {
+    header {
+        padding-top: 10px;
+    }
+
+    menu {
+        margin-top: 10px;
+    }
+
+    .contenido-principal {
+        padding-top: 70px;
+    }
+    
+}
+
+/* DISPOSITIVO XL */
+@media screen and (max-width: 1200px) {
+    header .menu a {
+        padding: 10px 20px;
+    }
+}
+

@@ -107,26 +107,26 @@ aside {
   overflow: auto;
   padding-top: 60px;
 }
-aside .enlaces-rapidos nav a {
+aside > nav a {
   display: flex;
   align-items: center;
   color: var(--blanco);
   padding: 10px 10px;
   border-radius: 3px;
 }
-aside .enlaces-rapidos nav a:hover {
+aside > nav a:hover {
   background: var(--input-hover);
 }
-aside .enlaces-rapidos .perfil img {
+aside .perfil img {
   width: 30px;
   height: 30px;
   border-radius: 100px;
   margin-right: 10px;
 }
-aside .enlaces-rapidos .icono {
+aside .icono {
   margin-right: 20px;
 }
-aside .enlaces-rapidos .icono svg {
+aside .icono svg {
   height: 20px;
   width: 20px;
 }
@@ -143,6 +143,15 @@ aside footer nav a:hover {
   color: var(--gris-claro);
 }
 
+.contactos .seccion {
+  margin-bottom: 20px;
+}
+.contactos .titulo {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--gris-claro);
+  margin-bottom: 10px;
+}
 .contactos .Publicidad {
   display: block;
   max-height: 100px;
@@ -286,6 +295,32 @@ main .publicacion .botones button:hover {
 }
 main .publicacion .botones button svg {
   margin-right: 5px;
+}
+
+/* --- MEDIAQUERIES --- */
+/* DISPOSITIVO MD */
+@media screen and (max-width: 768px) {
+  .enlaces-rapidos, .contactos {
+    display: none;
+  }
+}
+/* DISPOSITIVOS LG */
+@media screen and (max-width: 992px) {
+  header {
+    padding-top: 10px;
+  }
+  menu {
+    margin-top: 10px;
+  }
+  .contenido-principal {
+    padding-top: 70px;
+  }
+}
+/* DISPOSITIVO XL */
+@media screen and (max-width: 1200px) {
+  header .menu a {
+    padding: 10px 20px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
