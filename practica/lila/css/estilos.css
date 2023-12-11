@@ -1,0 +1,105 @@
+:root {
+  --texto: rgba(255,255,255, .7);
+  --blanco: #fff;
+  --input: #3a3b3c;
+  --input-hover: #4b4d4e;
+  --activo: #2d88ff;
+  --gris-claro: #b0b3b8;
+  --fondo-contenido: #242526;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #18191a;
+  color: var(--texto);
+}
+
+a {
+  color: var(--texto);
+  text-decoration: none;
+}
+
+header {
+  background: var(--fondo-contenido);
+}
+header .logo {
+  display: inline-block;
+}
+header .logo svg {
+  color: var(--blanco);
+  height: 35px;
+  width: 35px;
+}
+header .barra-busqueda {
+  position: relative;
+  width: 100%;
+}
+header .barra-busqueda input {
+  width: 100%;
+  border: none;
+  background: var(--input);
+  color: var(--texto);
+  height: 40px;
+  border-radius: 100px;
+  padding: 0 20px 0 40px;
+}
+header .barra-busqueda .icono {
+  position: absolute;
+  top: 6px;
+  left: 15px;
+  color: var(--texto);
+}
+header .menu a {
+  display: inline-block;
+  padding: 10px 40px;
+}
+header .menu a:hover {
+  color: var(--texto);
+  background: var(--input);
+  border-radius: 5px;
+}
+header .menu a svg {
+  width: 25px;
+  height: 25px;
+}
+header .menu .active {
+  border-bottom: 4px solid var(--activo);
+  color: var(--activo);
+}
+header .menu .active:hover {
+  background: none;
+  border-radius: 0px;
+}
+header .botones a {
+  background: var(--input);
+  display: inline-flex;
+  border-radius: 100px;
+  min-width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+}
+header .botones a:hover {
+  background: #4b4d4e;
+  color: var(--texto);
+}
+header .botones .perfil {
+  height: 40px;
+  padding: 0 7px;
+  background: none;
+  min-width: max-content;
+}
+header .botones .perfil img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  margin-right: 5px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
